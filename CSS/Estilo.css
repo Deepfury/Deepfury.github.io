@@ -1,0 +1,66 @@
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+.container-fluid {
+      padding: 60px 50px;
+}
+
+p {
+	font-size: 16px;}
+
+.bg-1{
+	max-width: 100%;
+    height: auto;
+	background-image: url("../IMG/devimg.jpeg");
+	background-size: cover;
+}
+
+
+.h3-Hola{
+	font-size: 70px;
+	padding: 10px 70px;
+	color:#eee;
+}
+
+.p-Intro{
+	font-size: 25px;
+	padding: 20px 70px;
+	width: 550px;
+    height: auto;
+    color:#222;
+}
+
+.bg-2{
+	background-color: #3f51b5;
+	color: #ffffff;
+}
+
+.bg-3{
+	background-color: #c5cae9;
+	color: #555555;
+}
+
+
+  .navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #3f51b5 !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #3f51b5 !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #3f51b5 !important;
+  }
+
