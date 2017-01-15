@@ -21,6 +21,11 @@ footer h3{font-size: 50px; color:#fff; font-family: "Montserrat"}
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media only screen and (max-device-width: 1024px) {
+    .bg-1 {
+        background-attachment: scroll;
+    }
+}
 
 
 .h3-Hola{
