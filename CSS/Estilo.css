@@ -1,7 +1,8 @@
-body {
+body, html {
     font: 20px "Montserrat", sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
+    height: 100%;
 }
 .container-fluid {
       padding: 30px 50px;
@@ -10,17 +11,22 @@ body {
 p {
 	font-size: 16px;}
 
+.h3-Habilidades{font-size: 50px; color:#fff; font-family: "Montserrat"}	
+
 footer h3{font-size: 50px; color:#fff; font-family: "Montserrat"}
 
 .bg-1{
 	width: 100%;
     height: 100%;
-	background-image: url("../IMG/devimg2.jpg");
+	background-image: url("../IMG/devimg.jpeg");
+	/*opacity: 0.5;
+    filter: alpha(opacity=50);*/
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 @media only screen and (max-device-width: 1024px) {
     .bg-1 {
         background-attachment: scroll;
@@ -37,13 +43,17 @@ footer h3{font-size: 50px; color:#fff; font-family: "Montserrat"}
 
 
 .h3-Hola{
+	font-family: "Montserrat"; 
 	font-size: 70px;
-	color:#eee;
+	color:#000;
 }
 
 .p-Intro{
-	font-size: 25px;
-    color:#eee;
+	font-family: "Montserrat";
+	font-size: 30px;
+    color:#111;
+    /*width: 600px;*/
+    /*background-color: rgba(179, 179, 179, 0.15);*/
 }
 
 .bg-2{
@@ -52,18 +62,25 @@ footer h3{font-size: 50px; color:#fff; font-family: "Montserrat"}
 }
 
 .bg-3{
-	background-color: #c5cae9;
-	color: #555555;
+	background-color: #f1f1f1;
+	color: #222;
+}
+.bg-3 h4{font-size: 30px;}
+
+footer .contact{
+	color: #f0f0f0;
+	font-size: 20px;
+	padding: 20px 20px;
 }
 
-
   .navbar {
+  	  font-family: "Montserrat";
       margin-bottom: 0;
       z-index: 9999;
       border: 0;
-      font-size: 12px !important;
+      font-size: 16px !important;
       line-height: 1.42857143 !important;
-      letter-spacing: 4px;
+      /*letter-spacing: 4px;*/
       border-radius: 0;
   }
   .navbar li a, .navbar .navbar-brand {
@@ -81,7 +98,7 @@ footer h3{font-size: 50px; color:#fff; font-family: "Montserrat"}
 .icon-bar {
     width: 100%;
     text-align: center;
-    background-color: #222;
+    background-color: #212121;
     overflow: auto;
 }
 
@@ -97,4 +114,65 @@ footer h3{font-size: 50px; color:#fff; font-family: "Montserrat"}
 .icon-bar a:hover {
     background-color: #000;
     color: white;
+}
+footer{
+	background-color: #212121;
+	margin-bottom: 0px;
+}
+footer .visit{
+	font-size: 20px;
+	color: #fff;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #3f51b5;
+}
+footer .firma{font-size: 10px; color: #000;}
+
+/*Cards*/
+.card{
+	padding:20px 20px;
+}
+.card .hab-iconos:hover{color:#000;}
+
+.card span{font-size: 50px;}
+
+/*ejemplos*/
+
+.h3-Ejemplos{font-size: 50px; color:#222; font-family: "Montserrat"}
+.ejemplo-img:hover{opacity: 0.5}
+
+
+
+/*animación*/
+
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    visibility: visible; 
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
 }
