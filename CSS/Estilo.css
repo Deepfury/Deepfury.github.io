@@ -4,18 +4,20 @@ body {
     color: #f5f6f7;
 }
 .container-fluid {
-      padding: 30px 50px;
+      padding: 30px 40px;
 }
 
 p {
 	font-size: 16px;}
 
-.h3-Habilidades{font-size: 50px; color:#fff; font-family: "Montserrat"}	
+.h3-Habilidades{font-size: 40px; color:#fff; font-family: "Montserrat"}	
 
-footer h3{font-size: 50px; color:#fff; font-family: "Montserrat"}
+footer h3{font-size: 40px; color:#fff; font-family: "Montserrat"}
 
 .bg-1{
-	background-color: #FF6F00;
+	background-color: #EF6C00;
+	color: #fff;
+	font-family: "Montserrat";
 }
 
 /*.bg-1{
@@ -43,16 +45,12 @@ footer h3{font-size: 50px; color:#fff; font-family: "Montserrat"}
 }*/
 
 
-.h3-Hola{
-	font-family: "Montserrat"; 
-	font-size: 70px;
-	color:#000;
+.h3-Hola{ 
+	font-size: 50px;
 }
 
 .p-Intro{
-	font-family: "Montserrat";
-	font-size: 30px;
-    color:#111;
+	font-size: 20px;
     /*width: 600px;*/
     /*background-color: rgba(179, 179, 179, 0.15);*/
 }
@@ -109,7 +107,7 @@ footer .contact{
     float: left;
     transition: all 0.3s ease;
     color: white;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .icon-bar a:hover {
@@ -137,11 +135,11 @@ footer .firma{font-size: 10px; color: #000;}
 }
 .card .hab-iconos:hover{color:#000;}
 
-.card span{font-size: 50px;}
+.card span{font-size: 80px;}
 
 /*ejemplos*/
 
-.h3-Ejemplos{font-size: 50px; color:#222; font-family: "Montserrat"}
+.h3-Ejemplos{font-size: 40px; color:#222; font-family: "Montserrat"}
 .ejemplo-img:hover{opacity: 0.5}
 
 
