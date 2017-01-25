@@ -25,16 +25,18 @@ footer h3{font-size: 40px; color:#fff; font-family: "Montserrat"}
 	width: 100%;
     height: 80%;
 	background-image: url("../IMG/code1.jpg");
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #fff;
 	font-family: "Montserrat";
     text-shadow: 0.5px 0.5px #aaa;
 }
 
 @media only screen and (min-width: 767px) {
+	.bg-1{
+		background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	}
     .h3-Hola{
 		font-size: 60px;
 		color:#fff;
