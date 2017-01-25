@@ -2,7 +2,7 @@ body, html {
     font: 20px "Montserrat", sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
-    height: 100%;
+    height: auto;
 }
 .container-fluid {
       padding: 30px 50px;
@@ -27,15 +27,15 @@ footer h3{font-size: 40px; color:#fff; font-family: "Montserrat"}
     color: #fff;
 	font-family: "Montserrat";
     text-shadow: 0.5px 0.5px #aaa;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media only screen and (min-width: 767px) {
 	.bg-1{
 		height: 80%;
 		background-attachment: fixed;
-    	background-position: center;
-    	background-repeat: no-repeat;
-    	background-size: cover;
 	}
     .h3-Hola{
 		font-size: 60px;
@@ -49,7 +49,7 @@ footer h3{font-size: 40px; color:#fff; font-family: "Montserrat"}
 
 @media only screen and (min-width:0px) and (max-width:767px) {
     .bg-1 {
-    	height: 100%;
+    	height: auto;
         background-attachment: scroll;
     }
     .h3-Hola{
