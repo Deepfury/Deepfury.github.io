@@ -1,3 +1,4 @@
+/*General*/
 body, html {
     font: 20px "Montserrat", sans-serif;
     line-height: 1.8;
@@ -8,30 +9,9 @@ body, html {
       padding: 30px 50px;
 }
 
-p {
-	font-size: 16px;}
+p {font-size: 16px;}
 
-.h3-Habilidades{font-size: 40px; color:#fff; font-family: "Montserrat"}	
-
-footer h3{font-size: 40px; color:#fff; font-family: "Montserrat"}
-
-/*.bg-1{
-	background-color: #EF6C00;
-	color: #fff;
-	font-family: "Montserrat";
-}*/
-
-.bg-1{
-	width: 100%;
-	background-image: url("../IMG/code1.jpg");
-    color: #fff;
-	font-family: "Montserrat";
-    text-shadow: 0.5px 0.5px #aaa;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+	/*#Cambiar el estilo según el tamano de pantalla - Responsive*/
 @media only screen and (min-width: 767px) {
 	.bg-1{
 		height: 80%;
@@ -62,35 +42,9 @@ footer h3{font-size: 40px; color:#fff; font-family: "Montserrat"}
 	}
 }
 
-/*
-.h3-Hola{ 
-	font-size: 40px;
-}
 
-.p-Intro{
-	font-size: 16px;
-    width: 600px;
-    /*background-color: rgba(179, 179, 179, 0.15);*/
-/*}*/
-
-.bg-2{
-	background-color: #3f51b5;
-	color: #ffffff;
-}
-
-.bg-3{
-	background-color: #f1f1f1;
-	color: #222;
-}
-.bg-3 h4{font-size: 30px;}
-
-footer .contact{
-	color: #f0f0f0;
-	font-size: 20px;
-	padding: 20px 20px;
-}
-
-  .navbar {
+/*Barra de Navegación*/
+.navbar {
   	  font-family: "Montserrat";
       margin-bottom: 0;
       z-index: 9999;
@@ -112,6 +66,51 @@ footer .contact{
       color: #3f51b5 !important;
   }
 
+
+/*Header*/
+.bg-1{
+	width: 100%;
+	background-image: url("../IMG/code1.jpg");
+    color: #fff;
+	font-family: "Montserrat";
+    text-shadow: 0.5px 0.5px #aaa;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Habilidades*/
+.bg-2{
+	background-color: #3f51b5;
+	color: #ffffff;
+}
+		/*Cards*/
+.card{
+	padding:20px 20px;
+}
+.card .hab-iconos:hover{color:#000;}
+
+.card span{font-size: 80px;}
+
+.h3-Habilidades{font-size: 40px; color:#fff; font-family: "Montserrat"}	
+
+/*Ejemplos*/
+.bg-3{
+	background-color: #f1f1f1;
+	color: #222;
+}
+.bg-3 h4{font-size: 30px;}
+.h3-Ejemplos{font-size: 40px; color:#222; font-family: "Montserrat"}
+.ejemplo-img:hover{opacity: 0.5}
+
+/*Footer*/
+footer .contact{
+	color: #f0f0f0;
+	font-size: 20px;
+	padding: 20px 20px;
+}
+
+footer h3{font-size: 40px; color:#fff; font-family: "Montserrat"}
 .icon-bar {
     width: 100%;
     text-align: center;
@@ -146,20 +145,6 @@ footer .glyphicon {
     color: #3f51b5;
 }
 footer .firma{font-size: 10px; color: #000;}
-
-/*Cards*/
-.card{
-	padding:20px 20px;
-}
-.card .hab-iconos:hover{color:#000;}
-
-.card span{font-size: 80px;}
-
-/*ejemplos*/
-
-.h3-Ejemplos{font-size: 40px; color:#222; font-family: "Montserrat"}
-.ejemplo-img:hover{opacity: 0.5}
-
 
 
 /*animación*/
