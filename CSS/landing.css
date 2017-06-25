@@ -58,7 +58,7 @@
 .main{
 	width: 100%;
     height: auto;
-    background-image: url("../IMG/teacher.png");
+    background-image: url("../IMG/teacher.jpg");
     position: relative;
 	background-size: cover;
     padding: 60px;
@@ -135,7 +135,7 @@
 .somos{
     width: 100%;
     height: auto;
-    background-image: url("../IMG/teacher-2.png");
+    background-image: url("../IMG/teacher-2.jpg");
     position: relative;
 	background-size: cover;
     padding-top: 40px;
